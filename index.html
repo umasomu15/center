@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    </head>
+<body class="bg-secondary">
+    <!-- <div class="container"> -->
+        <!-- <h1>learning bootstrap</h1>
+        <p>This is a fixed width container</p>
+        <p class="h1">h1 bootstrap heading</p>
+        <p class="h2">h2 bootstrap heading</p>
+        <p class="h2">h1 bootstrap heading</p>
+        <p class="h3">h1 bootstrap heading</p>
+        <p class="h4">h1 bootstrap heading</p>
+        <p class="h5">h1 bootstrap heading</p>
+        <p class="h6">h1 bootstrap heading</p>
+
+        <p class="display-1">h1 bootstrap heading</p>
+        <p class="display-2">h1 bootstrap heading</p>
+        <p class="display-3">h1 bootstrap heading</p>
+        <p class="">h1 bootstrap heading</p> -->
+
+        <!-- <p class="text-muted">the text is muted</p>
+        <p class="text-primary">the text is primary</p>
+        <p class="text-success">the text is success</p>
+        <p class="text-info">the text is info</p>
+        <p class="bg-primary">the text is muted</p> -->
+    <!-- </div>
+    <div class="col">
+        <p>this is a simple column in row</p>
+    </div>
+     -->
+            <!-- <div class="container"> -->
+               <!--- <div class="row">
+                    <div class="col">
+                        <p>this is a simple column in row</p>
+                    </div>
+                    <div class="col">
+                        <p>this is a simple column in row</p>
+                    </div>
+                    <div class="col">
+                        <p>this is a simple column in row</p>
+                    </div>
+    
+    
+                    
+                    
+    
+                </div>
+                <div class="row">
+                    <div class="col">
+                        <p>this is a simple column in row</p>
+            </div>
+
+        </div> -->
+        <header class="p-3 bg-success text-white sticky-top" >
+            <div class="row">
+                <div class="col-12 col-md-6 ">
+                    <h1>Manikandan's Nutrition</h1>
+                </div>
+                <div class="col mt-2 pe-5 d-flex justify-content-start justify-content-md-end">
+                    <nav>
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a class="text-white text-decoration-none" href="#home">Home</a></li>
+                            <li class="list-inline-item"><a class="text-white text-decoration-none" href="#about">About</a></li>
+                            <li class="list-inline-item"><a class="text-white text-decoration-none" href="#servicea">Services</a></li>
+                            <li class="list-inline-item"><a class="text-white text-decoration-none" href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <style>
+            .bg-image{
+                background-image: url('assets/home1.jpeg'); 
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+                width: 100%;
+                height: 600px;
+                position: relative;
+                filter: brightness(1.5);
+            }
+            body{
+                background-color: #d4edda;
+            }
+            #hcard{
+                background-color: rgba(162, 255, 253, 0.83);
+                box-shadow: 8px 8px 8px rgba(255, 255, 255, 0.2);
+                border:none;
+            }
+            #hcard .card-tittle{
+                font-size: 1.5rem;
+                font-weight: bold;
+            }
+            .get {
+                background-color: #f3dc14;
+                color: black;
+                padding:50px 30px;
+                border-radius: 8px;
+                text-align: center;
+            }
+            .get h1{
+                font-size: 2rem;
+                font-weight: bold;
+                margin-bottom: 30px;
+            }
+            .get p{
+                margin-bottom: 15px;
+                font-size: 1.1em;
+            }
+            .get a{
+                margin-bottom: 15px;
+                font-size: 1.1em;
+            }
+            #c1{
+                width: 90%;
+                max-width: 400px;
+                padding: 5rem 2.5rem;
+
+                border-radius: 1rem;
+                border: 1px solid transparent;
+
+                backdrop-filter: blur(1rem);
+                box-shadow: 1.3rem 1.3rem 1.3rem rgba(0, 0, 0, 0.5);
+
+                border-top-color: rgba(255, 255, 255, 0.5);
+                border-left-color: rgba(255, 255, 255, 0.5);
+                border-bottom-color: rgba(255, 255, 255, 0.5);
+                border-right-color: rgba(255, 255, 255, 0.5);
+            }
+            .cb1{
+                background-color: rgba(225, 225, 225, 0.1);
+            }
+            
+        </style>
+        <div class="bg-image " id="home">
+            <div class="bg-overlay"></div>
+            <div class="container h-100" >
+                <div class="row justify-conent-center align-items-center h-100">
+
+                    <div class="col-md-6 d-flex justify-content-center">
+
+                        <div class="card m-2 cb1" id="c1">
+
+                            <div class="card-body" id="c2">
+                                <h4 class="card-tittle text-danger" id="t1">Healthy Food Makes You Feel Good</h4>
+                                <p class="card-text" id="t2">Nourish Your Body, TransForm Your Well-being.
+                                </p> <p class="card-text pb-3" id="t2">Your Journey to Wellness Starts Here!.
+                                </p>
+                                <a href="#contact" class="btn btn-outline-light btn-primary rounded-5"> <h5> Contact Us </h5>  </a>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    <div class="container mt-5 " id="about">
+        <h1 class="fw-bold text-dark">About Us</h1>
+         <div class="container py-3">
+                <div class="card bg-white text-success">
+                    <div class="card-body">
+                        <h1 class="card-title">We help to improve your health</h1>
+                        <p>Diet is the essential key to all successful healing</p>
+                    </div>
+                </div>
+            </div> 
+        <div class="row py-3 px-2" >
+            <div class="col-12 col-md-6 col-sm-12 col-lg-6">
+                <img class="img-fluid h-0 w-60 rounded" src="assets/a.jpg" alt="">
+            </div>
+            <div class="col-12 col-md-6 col-sm-12 text-white col-lg-6">
+                <h1 class="text-center py-3">Welcome To Our Nutrition Center</h1>
+            <div class="text-capitalize fw-normal lh-lg word-spacing-3">
+                <p> In our nutrition center, we are committed to helping you achieve your health and wellness goals through personalized nutrion solutions.Weather you're looking to lose weight ,improve your energy,manage a specific health condition,or simply adopt a healthier lifestyle, we are here to guide you every step of the way.
+                </p>
+                <p>
+                    Our expert team of nutrionists and health professionals takes a holistic approch to your wellbeing , offering customized plans that suit your unique needs, preferences, and lifestyle. We believe that good nutrition is the foundation of a happier, healthier life ,and we're passionate about empowering you to make informed,sustainable choices.
+                </p>
+                <p>
+                    Explore our services , resources and expert advice, and take the first step toward transforming your health today. Together , we'll build stronger,more vibrant you!
+                </p>
+                <h6 class="fw-bold  text-danger"> Get Started Today - Let's create a nutrion plan that works for you...</h6>
+            </div>
+            </div>
+    </div>
+        <div class="container" id="servicea">
+            <h1 class="fw-bold text-dark">Nutritional Need's</h1>
+            <div class="row g-3">
+                <h5 class="text-capitalize text-white">Undergo The wellness evaluation and learn how to improve all the below parameters,balance your food,control weight and feel healthy</h5>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded h-100 w-100" src="assets/bone.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body ">
+                                    <h2 class="mb-3">Bone Mass</h2>
+                                    <p> The total weight of bones in your body, indicating skeletal health and strength. </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/fat.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body ">
+                                    <h2 class="mb-3">Body Fat</h2>
+                                    <p>Percentage of your body weight made up of fat tissue, which can impact health and fitness.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card ">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/musscle.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="mb-3">Muscle Mass</h2>
+                                    <p>The total amount of muscle tissue in your body, important for strength and metabolism.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/age.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="mb-3">Biological Age</h2>
+                                    <p>An estimate of your age based on various health and fitness factors, rather than current age.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2 pt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/water.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="mb-3">Body water</h2>
+                                    <p>The percentage of water in your body, important for cellular function and circulation</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2 pt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/bmr.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12 ">
+                                <div class="card-body">
+                                    <h2 class="mb-3">BMR</h2>
+                                    <p>The number of calories your body needs to perform basic functions at rest.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/visceral.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="mb-3">Visceral Fat</h2>
+                                    <p>The fat stored around internal organs,linked to higher health risks when in excess.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-6 col-sm-12">
+                                <img class="img-fluid rounded w-100 h-100" src="assets/physical.png" alt="">
+                            </div>
+                            <div class="col-6 col-sm-12">
+                                <div class="card-body">
+                                    <h2 class="mb-3">Physique Rate</h2>
+                                    <p>A score that reflects your body composition, taking into account muscle tone and fats.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+        </div>
+        <h1 class="text-white">Our Services</h1>
+        <div id="myCarousel" class="carousel slide" >
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="/assets/we.jpg" class="d-block w-100 " alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/weightgain.png" class="d-block w-100 " alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/women.webp" class="d-block w-100 " alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/sport.jpg" class="d-block w-100 " alt="Fourth slide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/skin.jpg" class="d-block w-100 " alt="Fithlide">
+                </div>
+                <div class="carousel-item">
+                    <img src="/assets/bone1.jpg" class="d-block w-100 " alt="Sixth slide">
+                </div>
+            </div>
+            <div class="carousel-controls">
+                <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+            </div>
+        </div>
+
+        </div>
+
+
+    </div>
+</div>
+        <h1 class="p-3">Contact Us </h1>
+        <div id="contact" class="get pt-5">
+            <h1>GET IN TOUCH</h1>
+            <p>Kanagaraja Ganpathy Street, Ponnampet, Salem - 636001</p>
+            <p><a href="mailto:maniusha1713@gmail.com" class="text-decoration-none text-dark">maniusha1713@gmail.com</a></p>
+            <p><a href="mailto:ashok1234868@gmail.com" class="text-decoration-none text-dark">ashok1234868@gmail.com</a></p>
+
+
+
+            <a href="tel:+91 9698581713" class="text-decoration-none text-dark">9698581713</a>
+        </div>
+    <footer class="p-3 bg-dark text-white mt-3">
+                <div class="col">
+                    <ul class="list-inline">
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">Manikandan Nutrition </a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">All Rights Reserved</a></li>
+                        <li class="list-inline-item"><a class="text-white text-decoration-none" href="#">@2024 by Ashokkumar</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+            
+        </script>
+
+
+ </body>
+</html>
+<!-- <div id="hcard" class="card"
+style="filter: brightness(1.5);
+filter:opacity(75)">
+    <div class="card-body ">
+
+        <h3 class="card-title ps-3">
+            Healthy Food Makes You Feel Good
+
+        </h3>
+        <p class="card-text ps-3">
+            Discover The Power Of Nutritions Meals To Boost Your Health
+
+        </p>
+        <h1 class="d-flex justify-content-center align-items-center">Contact Us</h1>
+        <div class=" d-flex justify-content-center align-items-center">
+                <a href="tel:+91 9698581713" class="pe-5">
+                    <img src="./assets/phone1.png" alt="Call Us">
+                </a>
+            
+                <a href="mailto:ashok1234868@gmail.com" >
+                    <img src="./assets/mail.png" alt="Call Us">
+                </a>
+        </div>
+       
+        
+    </div>
+</div> -->
